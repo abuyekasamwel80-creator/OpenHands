@@ -36,6 +36,7 @@ ralph/
 # Local runtime artifacts produced by static-server / agent-server runs
 workspace/
 build-fresh/
+.openhands-dev/codespace/
 
 # Electron desktop build outputs
 /dist-electron/

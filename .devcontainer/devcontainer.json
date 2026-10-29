@@ -1,0 +1,13 @@
+{
+  "name": "OpenHands Agent Canvas",
+  "postCreateCommand": "npm ci && bash scripts/codespace-service.sh setup",
+  "postStartCommand": "bash scripts/codespace-service.sh start",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "OpenHands Agent Canvas",
+      "onAutoForward": "openBrowser",
+      "visibility": "private"
+    }
+  }
+}
